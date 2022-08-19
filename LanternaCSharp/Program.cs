@@ -26,7 +26,7 @@ public class Program
 
         Console.WriteLine($" \n A lanterna está: " + (status ? "Ligada" : "Desligada"));
 
-        Console.WriteLine($" \n Caraga da Bateria :  " + bateria.ObterCarga());
+        Console.WriteLine($" \n Carga da Bateria :  " + bateria.ObterCarga());
 
         Console.WriteLine("-----------------------------------------");
 
