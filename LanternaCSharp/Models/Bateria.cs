@@ -9,7 +9,8 @@ namespace LanternaCSharp.Models
     public class Bateria
     {
         public int Carga { get; set; } = 100;
+      
     }
-
-
 }
+
+
