@@ -1,36 +1,40 @@
 ﻿using LanternaCSharp.Models;
-using System.Reflection.Metadata.Ecma335;
-using System.Runtime.Intrinsics.X86;
+using System;
 
-Lanterna lanterna1 = new Lanterna();
-Bateria bateria1 = new Bateria();
-//string Ligada ;
+public class Program
+{
+    Bateria bateria = new Bateria();
+    Lanterna lanterna = new Lanterna();
 
-//int carga = 100;
+    public static void Main()
+    {
+        // exibir o status inicial de bateria.Carga e lanterna.Status
 
+        Console.Clear();
+        Console.WriteLine(" \n Status da Lanterna : Desligada " + Lanterna.Status);
+        Console.WriteLine(" \n Botão Liga/Desliga");
+        Console.WriteLine(" \n Status da Bateria : 100% Carregada");
+        Console.WriteLine("------------------------------");
 
+        Console.ReadLine();
+    }
 
-Console.Clear();
-Console.WriteLine(" \n Status da Lanterna : Desligada ");
-Console.WriteLine(" \n Botão Liga/Desliga");
-Console.WriteLine(" \n Status da Bateria : 100% Carregada");
-Console.WriteLine("------------------------------");
+    
 
-
-Console.WriteLine(" Ligar a lanterna :"  );
-int carga = int.Parse(Console.ReadLine());
-
-//Console.WriteLine(string.Format("\n Status da Lanterna: Ligada")); 
-
-
-
-//Console.WriteLine($"2 = Desliga lanterna  \n" + lanterna1.DesligaLanterna());
-
-//Console.WriteLine("Lanterna desligada");
+    public static void TrocarBateria() { /* altera a carga da bateria para 100 */ }
+}
 
 
 
-Console.ReadLine();
+
+
+
+
+
+
+
+
+
     
 
 

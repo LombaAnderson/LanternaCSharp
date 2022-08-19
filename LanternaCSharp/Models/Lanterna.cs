@@ -1,38 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.WebSockets;
-using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace LanternaCSharp.Models
 {
-    public class Lanterna
-    {
-
-       public int Status { get; set; }
-       public string Ligada { get; set; }
-       public string Desligada { get; set; }
-
-
-        public string LigaLanterna ()
+   
+        public class Lanterna
         {
-            return Ligada;
-     
+            public bool Status { get; set; }
         }
 
-      public string DesligaLanterna()
+
+    public static void LigarLanterna(bool status)
+    { 
+        /* altera a lanterna*/ 
+    
+    
+    }
+
+
+    public void Ligar(int carga)
         {
-            return Desligada;
-        }
-       
+            int cargaCorrente = 0;
 
-      public void TrocaBateria()
+            while (cargaCorrente != carga)
+            {
+                Console.Clear();
+                cargaCorrente--;
+                Console.WriteLine(cargaCorrente);
+                Thread.Sleep(1000);
+
+            }
+
+            Console.Clear();
+            Console.WriteLine("Bateria descarregada...clique qualquer tecla para recarregar");
+            Thread.Sleep(2500);
+
+            RecarregaBateria(); 
+
+        }
+
+        public void RecarregaBateria()
         {
 
         }
-      
-
     }
 }
