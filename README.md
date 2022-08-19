@@ -4,6 +4,7 @@
 
 
 # Sobre o projeto
+
 Criação de uma lanterna utilizando Programação orientada a objetos em C#. Segui as instruções abaixo para implementar essa aplicação:
 
 - Ao abrir o aplicativo, a lanterna deve estar com o status desligada e a bateria deve estar 100%
@@ -28,6 +29,7 @@ git clone https://github.com/lombaAnderson/Lanterna_Csharp
 
 ```
 
+
 # Autor
 
 Anderson Lomba de Oliveira
@@ -42,10 +44,7 @@ https://www.lombanderson.epizy.com
 
 # Agradecimentos
 
-Agradeço a Deus principalmente que faz tudo por mim e a minha esposa!
-
-
-
+Agradeço a Deus principalmente que faz tudo por mim e a minha esposa que é meu tudo também!
 
 
 
