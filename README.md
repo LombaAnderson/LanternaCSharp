@@ -20,7 +20,7 @@ Criação de uma lanterna utilizando Programação orientada a objetos em C#. Se
 
 # Como executar o projeto
 
-# Foi utilizada a IDE Visual Studio
+- Foi utilizada a IDE Visual Studio
 
 # Clonar repositório
 git clone https://github.com/lombaAnderson/Lanterna_Csharp
