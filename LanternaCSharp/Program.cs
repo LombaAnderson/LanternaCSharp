@@ -4,7 +4,10 @@ using System.Runtime.Intrinsics.X86;
 
 Lanterna lanterna1 = new Lanterna();
 Bateria bateria1 = new Bateria();
-string Ligada ;
+//string Ligada ;
+
+//int carga = 100;
+
 
 
 Console.Clear();
@@ -14,10 +17,10 @@ Console.WriteLine(" \n Status da Bateria : 100% Carregada");
 Console.WriteLine("------------------------------");
 
 
-Console.WriteLine($" Clique qualquer tecla para ligar a lanterna"  );
- Ligada = Console.ReadLine();
+Console.WriteLine(" Ligar a lanterna :"  );
+int carga = int.Parse(Console.ReadLine());
 
-Console.WriteLine(string.Format("\n Status da Lanterna: Ligada")); 
+//Console.WriteLine(string.Format("\n Status da Lanterna: Ligada")); 
 
 
 
