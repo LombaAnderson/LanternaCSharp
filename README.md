@@ -29,7 +29,6 @@ git clone https://github.com/lombaAnderson/Lanterna_Csharp
 
 ```
 
-
 # Autor
 
 Anderson Lomba de Oliveira
