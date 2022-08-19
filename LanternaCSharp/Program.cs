@@ -1,9 +1,10 @@
 ﻿using LanternaCSharp.Models;
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.Intrinsics.X86;
 
 Lanterna lanterna1 = new Lanterna();
 Bateria bateria1 = new Bateria();
-
+string Ligada ;
 
 
 Console.Clear();
@@ -13,11 +14,16 @@ Console.WriteLine(" \n Status da Bateria : 100% Carregada");
 Console.WriteLine("------------------------------");
 
 
-Console.WriteLine($"1 = botão liga  \n" + lanterna1.LigaLanterna());
+Console.WriteLine($" Clique qualquer tecla para ligar a lanterna"  );
+ Ligada = Console.ReadLine();
 
-string ligada = Console.ReadLine("Lanterna ligada"));
-Console.WriteLine($"2 = botão desliga  \n" + lanterna1.DesligaLanterna());
-Console.WriteLine("Lanterna desligada");
+Console.WriteLine(string.Format("\n Status da Lanterna: Ligada")); 
+
+
+
+//Console.WriteLine($"2 = Desliga lanterna  \n" + lanterna1.DesligaLanterna());
+
+//Console.WriteLine("Lanterna desligada");
 
 
 
