@@ -15,7 +15,7 @@ Criação de uma lanterna utilizando Programação orientada a objetos em C#. Se
 
 ## Print do código no Visual Studio
 <div align="center">
-<img src="https://user-images.githubusercontent.com/60937513/183303540-802bdea8-12b8-4a3e-9416-6b2b64fa0575.PNG" width="800" />
+<img src="https://user-images.githubusercontent.com/60937513/185675112-7bffae30-d4ef-48ba-8a13-7075e92334e7.png" width="800" />
 </div>
 
 # Como executar o projeto
