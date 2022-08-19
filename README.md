@@ -29,7 +29,7 @@ git clone https://github.com/lombaAnderson/Lanterna_Csharp
 
 ```
 
-# Autor
+ Autor
 
 Anderson Lomba de Oliveira
 
@@ -41,7 +41,7 @@ Portfólio
 
 https://www.lombanderson.epizy.com
 
-# Agradecimentos
+ Agradecimentos
 
 Agradeço a Deus principalmente que faz tudo por mim e a minha esposa que é meu tudo também!
 
